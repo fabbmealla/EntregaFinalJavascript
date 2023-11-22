@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+*::selection {
+    background-color:rgb(16, 30, 56);
+    color:rgb(168, 197, 239);
+}
+
+header {
+    background-color:rgb(168, 197, 239);
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.nav-item a {
+    color:rgb(16, 30, 56);
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.nav-item a:hover {    
+    color: rgb(138, 139, 140);
+    transition: all 1s;
+}
+
+main {
+    padding-top: 4rem;
+}
+
+.sanatorio {
+    width: 100%;
+}
+
+.parrafo {
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 2rem 10rem 0rem 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.serviciosMedicos {
+    padding: 4rem 0rem;
+}
+
+.reservaMedicos {
+    padding: 2rem 0rem;
+}
+
+.formularioReservas {
+    margin: 2rem 0rem;
+}
+
+.cuadros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cardEsp {
+    display: flex;
+    margin: 1rem;
+    padding: 0.1rem;
+    width: 18rem;
+    justify-content: center;
+}
+
+.card img {
+    padding: 0.5rem;
+}
+
+.cuadros-dos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0rem;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mostrarRes {
+    align-items: left;
+    justify-content: left;
+}
+
+img {
+    width: 100%;
+}
+
+.card2 {
+    display: flex;
+    margin: 1rem;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.card2.div {
+    margin: 1rem;
+}
+
+.margin-top {
+    padding-top: 1rem;
+}
+
+.card3 {
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.primaryBoton {
+    margin: 0.5rem;
+    background-color: rgb(16, 30, 56);
+}
+
+.footer {
+    background-color: rgb(168, 197, 239);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.cuadros h1 {
+    color: rgb(134, 164, 206);
+    font-size: 3.5rem;
+}
+
+.cuadros h5 {
+    color: rgb(93, 120, 158);
+}
+
+.sinReserva {
+    display: flex;
+}
+
+.sinReserva p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(134, 164, 206);
+}
+
+.cancelarTurno {
+    margin: 1rem;
+}
+
+.cardReserva {
+    margin: 3rem;
+}
+
+.parrafo h2 {
+    color: rgb(134, 164, 206);
+    font-size: 3rem;
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(31, 50, 87) !important;
+}
+
+.nombre {
+    color: rgb(93, 120, 158);
+}
+
+.formulario h2 {
+    color: rgb(93, 120, 158);
+}
