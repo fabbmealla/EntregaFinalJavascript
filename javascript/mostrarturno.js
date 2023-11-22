@@ -2,7 +2,6 @@ let reservas = recuperarReservas()
 
 const sinReservas = document.querySelector("#sinReservas")
 const turno = document.querySelector("#turno")
-const botones = document.querySelectorAll(".cancelarTurno");
 
 if (!reservas || reservas.length === 0) {
     const sinReservaDiv = document.createElement("div")
@@ -35,11 +34,15 @@ reservas.forEach((reserva, id) => {
     </div>`;
 
     turno.appendChild(reservaDiv)
+
+    
+    const botones = document.querySelectorAll(".cancelarTurno");
+    botones.forEach((boton) => {
+        boton.addEventListener("click", eliminarReserva);
+        });
 });
 
-botones.forEach((boton) => {
-    boton.addEventListener("click", eliminarReserva);
-    });
+
 
 
 
